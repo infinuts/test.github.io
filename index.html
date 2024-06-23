@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wave</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-black">
+
+  <header class="sticky top-0 left-0 w-full z-50 bg-transparent transition-colors duration-300">
+    <header class="header-bg sticky top-0 left-0 w-full z-50">
+    <div class="flex justify-between items-center max-w-screen-xl mx-auto p-5">
+          <div class="flex flex-row w-full text-white py-3 navbar px-5 md:px-0"><span>
+            <!--Header thingy -->
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 906.33 362" width="80" height="40"><defs>
+            <linearGradient id="logo-text-white_svg__linear-gradient" x1="254.32" x2="157.31" y1="26.19" y2="311.16" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#27aae1"></stop><stop offset="1" stop-color="#2b3990"></stop>
+            </linearGradient><linearGradient xlink:href="#logo-text-white_svg__linear-gradient" id="logo-text-white_svg__linear-gradient-2" x1="357.47" x2="-151.27" y1="275.77" y2="403.1">
+            </linearGradient><linearGradient xlink:href="#logo-text-white_svg__linear-gradient" id="logo-text-white_svg__linear-gradient-3" x1="66.8" x2="486.29" y1="343.43" y2="264.99">
+            </linearGradient><linearGradient xlink:href="#logo-text-white_svg__linear-gradient" id="logo-text-white_svg__linear-gradient-4" x1="12.09" x2="110.43" y1="94.24" y2="375.61"></linearGradient>
+            <linearGradient xlink:href="#logo-text-white_svg__linear-gradient" id="logo-text-white_svg__linear-gradient-5" x1="68.26" x2="9.71" y1="317.57" y2="56.09"></linearGradient>
+            <linearGradient xlink:href="#logo-text-white_svg__linear-gradient" id="logo-text-white_svg__linear-gradient-6" x1="172.91" x2="52.79" y1="282.15" y2="129.44"></linearGradient>
+            <linearGradient xlink:href="#logo-text-white_svg__linear-gradient" id="logo-text-white_svg__linear-gradient-7" x1="35.99" x2="200.08" y1="152.18" y2="344.31"></linearGradient>
+          </defs><g id="logo-text-white_svg__Layer_2" data-name="Layer 2">
+            <g id="logo-text-white_svg__Layer_3" data-name="Layer 3"><g id="logo-text-white_svg__Layer_4" data-name="Layer 4">
+              <path d="M362 181q0 7.92-.67 15.66c-5.55-17.39-19.61-44.32-53.48-44.32-50 0-54.19 44.6-54.19 44.6a22 22 0 0 1 18.19-9c12.51 0 19.71 4.92 19.71 18.19s-11.75 23.11-31.45 23.11-48.44-11.37-48.44-42.44c0-58.71 52-62.77 52-62.77-28.8-9.58-54.69 8.51-68.21 27.05C170.35 185.6 190 219 190 219s-33.87-18.95-33.87-74.24c0-89.28 91.33-100.93 125.58-87.19-23.71-23.71-43.4-29.5-69.12-29.5-62.52 0-108.22 60.14-108.22 111 0 44.3 34.85 117.16 132.31 117.16 86.66 0 95.46-55.1 86-69 36.54 36.57-17.83 84.13-86 84.13-28.87 0-105.17-6.56-150.89-79.6C19.85 86.4 146.42 15.92 146.42 15.92 113.5 13.7 91.6 23.77 89.8 24.63A181 181 0 0 1 362 181" style="fill:url(#logo-text-white_svg__linear-gradient)"></path>
+              <path d="M349.39 247.5a181 181 0 0 1-300 57.7 361.8 361.8 0 0 0 88.05 10.8q9.66 0 19.2-.5 15.56-.81 30.75-2.92a360.06 360.06 0 0 0 162-65.08" style="fill:url(#logo-text-white_svg__linear-gradient-2)"></path>
+              <path d="M349.39 247.5a181 181 0 0 1-271.9 82 363.8 363.8 0 0 0 65.29 1.25q9.63-.68 19.12-1.85 15.45-1.9 30.46-5.07a360 360 0 0 0 157.03-76.33" style="fill:url(#logo-text-white_svg__linear-gradient-3)"></path>
+              <path d="M115.23 296.61a362 362 0 0 1-37.1-4.17 360 360 0 0 1-47.93-11.32A180.1 180.1 0 0 1 0 183.34v-3.49A180.4 180.4 0 0 1 51.63 55.64l.12-.13v.05a1 1 0 0 0-.09.15q-1.06 1.93-2.07 3.9c-.39.74-.77 1.49-1.14 2.24-.28.55-.56 1.11-.83 1.67q-2.22 4.54-4.18 9.24a97.2 97.2 0 0 0-7.27 20.86 178 178 0 0 0-2.35 9.29c-.19.85-.37 1.7-.55 2.56-.45 2.17-.87 4.35-1.24 6.55-.15.84-.28 1.68-.41 2.53q-.24 1.53-.45 3.06c-.12.85-.23 1.71-.33 2.56-.05.33-.09.67-.12 1-.09.67-.17 1.34-.23 2 0 .37-.08.73-.12 1.1q-.13 1.31-.24 2.61c-.18 2.08-.33 4.16-.43 6.26-.06 1-.1 2.1-.14 3.15s-.06 2.11-.08 3.16 0 2.12 0 3.18a180.89 180.89 0 0 0 85.75 153.98" style="fill:url(#logo-text-white_svg__linear-gradient-4)"></path>
+              <path d="M78.13 292.44a360 360 0 0 1-47.93-11.32A180.1 180.1 0 0 1 0 183.34v-3.49A180.4 180.4 0 0 1 51.63 55.64l.1-.08.05-.05-.14.2q-1.26 1.8-2.46 3.65c-.46.69-.92 1.4-1.37 2.1l-1 1.58c-1.79 2.85-3.51 5.77-5.13 8.74a97 97 0 0 0-9.44 20q-1.77 4.42-3.32 9c-.28.82-.55 1.65-.82 2.48-.67 2.11-1.32 4.24-1.92 6.38-.24.82-.46 1.65-.68 2.48-.27 1-.52 2-.77 3-.21.83-.41 1.68-.6 2.51-.08.33-.16.66-.22 1-.16.66-.32 1.32-.45 2-.08.36-.15.72-.23 1.08-.18.86-.35 1.71-.52 2.57-.4 2-.76 4.1-1.09 6.18-.17 1-.32 2.08-.47 3.12s-.28 2.09-.41 3.13-.26 2.11-.37 3.16a180.73 180.73 0 0 0 57.76 152.57" style="fill:url(#logo-text-white_svg__linear-gradient-5)"></path>
+              <path d="M236.69 283.5a361.5 361.5 0 0 1-48.61 10.27 365 365 0 0 1-45.85 3.48 178 178 0 0 1-18.77-10.77 180.75 180.75 0 0 1-77.22-148.31q0-7.12.55-14.12a180.91 180.91 0 0 0 179.76 159.74c3.45 0 6.79-.09 10.14-.29"></path><path d="M236.69 283.5a361.5 361.5 0 0 1-48.61 10.27 365 365 0 0 1-45.85 3.48 178 178 0 0 1-18.77-10.77 180.75 180.75 0 0 1-77.22-148.31q0-7.12.55-14.12a180.91 180.91 0 0 0 179.76 159.74c3.45 0 6.79-.09 10.14-.29" style="fill:url(#logo-text-white_svg__linear-gradient-6)"></path><path d="M188.08 293.77a365 365 0 0 1-45.85 3.48 178 178 0 0 1-18.77-10.77 180.75 180.75 0 0 1-77.22-148.31q0-7.12.55-14.12a180.94 180.94 0 0 0 141.29 169.72" style="fill:url(#logo-text-white_svg__linear-gradient-7)"></path>
+              <path d="m543.87 193.45 17-60.43a5.31 5.31 0 0 1 5.12-3.88h25.22l-33.4 103.72h-26.39l-19.5-62-19.5 62h-26.34l-33.4-103.72h25.21A5.32 5.32 0 0 1 463 133l17 60.43 19.5-64.31h24.89ZM665.85 141.17v-6.71a5.32 5.32 0 0 1 5.32-5.32h22.28v103.72h-22.28a5.32 5.32 0 0 1-5.32-5.32v-6.92C657.14 232 642.62 236 633.08 236c-30.91 0-51.25-23.24-51.45-55 .2-31.74 20.54-55 51.45-55 9.54 0 24.27 3.76 32.77 15.17m2.49 39.83c0-20.95-15.35-30.08-29.25-30.08-14.1 0-29.87 8.51-30.08 30.08.21 21.58 16 30.08 30.08 30.08 13.91 0 29.25-9.08 29.25-30.08M696.51 129.14h26.54a5.32 5.32 0 0 1 5 3.52l23.63 66 23.63-66a5.33 5.33 0 0 1 5-3.52h26.54l-41.67 103.72h-27ZM897.15 156.62a61 61 0 0 1 3.42 8l-68 34.8c8.68 15.13 23 15.74 33.87 10.16 6.88-3.53 12.28-9.57 14.34-16.64a5.3 5.3 0 0 1 2.68-3.27l22.76-11.65c1 26.06-9.9 41.66-29.47 51.68-27 13.81-56.73 5.28-72.15-24.82s-4.93-59.23 22-73c27.78-14.18 56.65-2.4 70.55 24.74m-72.77 25.85 43.4-22.22c-8.48-13.38-23.59-11.47-31.16-7.59-8.49 4.34-17.21 14.64-12.24 29.81" class="logo-text-white_svg__cls-8"></path></g></g></g></svg></span><div class="hidden lg:flex w-full justify-left ml-[3em] gap-[3em] text-center items-center font-normal select-none"><a class="active">Home</a><a class="!cursor-not-allowed">Features</a><a class="!cursor-not-allowed">Pricing</a><a class="!cursor-not-allowed">Resources</a></div><div class="w-full xl:w-[15%] flex justify-end"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" class="cursor-pointer transition duration-300 ease-in-out brightness-75 hover:brightness-125" height="35" width="35" xmlns="http://www.w3.org/2000/svg">
+                <path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"></path></svg></div></div>
+            <!--Header thingy done -->
+            </div>
+        </div>
+    </header>
+
+    <main class="flex justify-center items-center h-screen">
+      <div class="container mx-auto text-center py-12">
+        <h3 class="text-gray-400 text-xl mb-2">Introducing</h3>
+        <h1 class="text-white text-6xl font-bold mb-2">
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <span id="waveText">Wave</span> <span class="text-blue-400">On Windows</span>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+      </h1>
+      
+          </h1>
+        </h1>
+            <p id="options-text" class="text-blue-400 text-2xl">Never Ending Options</p>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="repetitive-text"></div>
+</body>
+        </div>
+    </main>
+
+    <section class="bg-black py-20">
+      <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+          <div class="md:w-1/2">
+              <h2 class="text-white text-3xl font-bold mb-4">Wave 
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <a class="text-blue-400 text-3xl font-bold mb-4">				 • Windows <i class="fab fa-windows"></i></a>
+              </h2>
+              <h3 class="text-white text-5xl font-bold mb-4">Get The Most Of it.<br>UNC 99%.</h3>
+              <p class="text-gray-300 text-lg mb-6">
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                  With Wave for Windows, You Have All The Power Needed To Exploit on Roblox.
+              </p>
+              <a href="#download" class="text-blue-500 hover:text-blue-400"> Power your play now!</a>
+              <div class="bubble"></div>
+              <div class="bubble"></div>
+              <div class="bubble"></div>
+              <div class="bubble"></div>
+              <div class="mt-6">
+                <a href="https://linkvertise.com/1138912/dive-in-ride-the-wave" class="inline-block">
+                  <button>
+                    Download
+                  </button>
+                </a>
+                  <t class="text-blue-500 hover:text-blue-400 ml-4">for PC</button>
+              </div>
+          </div>
+          <div class="md:w-1/2 mt-6 md:mt-0">
+              <!-- Placeholder for the Windows UI image -->
+              <img src="ax.png" alt="A screenshot showing Arceus X application running on Windows with a dark theme interface and several open windows featuring advanced scripting and settings." class="rounded-lg shadow-xl">
+          </div>
+      </div>
+  </section>
+  
+
+<script>
+  document.addEventListener('DOMContentLoaded', (event) => {
+    // Array of random phrases
+    const phrases = [
+      "Endless Possibilities",
+      "Limitless Adventures",
+      "Best Executor",
+      "Infinite Choices",
+      "Boundless Opportunities",
+      "Unlimited Potential"
+    ];
+
+    // Function to get a random phrase
+    function getRandomPhrase() {
+      return phrases[Math.floor(Math.random() * phrases.length)];
+    }
+
+    // Set the text to a random phrase
+    const optionsText = document.getElementById('options-text');
+    if (optionsText) {
+      optionsText.textContent = getRandomPhrase();
+    }
+
+    document.addEventListener('DOMContentLoaded', (event) => {
+    const optionsText = document.getElementById('options-text');
+    // This function adds the 'fade-in' class to the text
+    function animateText() {
+      optionsText.classList.add('fade-in');
+    }
+
+    // Call the function to start the animation
+    animateText();
+  });
+
+    // If you want to change the text at regular intervals
+    setInterval(() => {
+      optionsText.textContent = getRandomPhrase();
+    }, 3000); // Change every 5 seconds
+  });
+</script>
+
+<script>
+  window.addEventListener('scroll', function() {
+    const header = document.querySelector('.header-bg');
+    if(window.scrollY > 0) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  });
+  </script>
+  
+<style>
+
+  .logo-text-white_svg__cls-8{fill:#fff}
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes gradientBackground {
+  0% {
+    background: linear-gradient(45deg, #85FFBD, #FFFB7D);
+  }
+  25% {
+    background: linear-gradient(45deg, #FBDA61, #FF5ACD);
+  }
+  50% {
+    background: linear-gradient(45deg, #A1C4FD, #C2E9FB);
+  }
+  75% {
+    background: linear-gradient(45deg, #D4FC79, #96E6A1);
+  }
+  100% {
+    background: linear-gradient(45deg, #85FFBD, #FFFB7D);
+  }
+}
+
+@keyframes floatBubbles {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  100% {
+    transform: translateY(-1000px) translateX(50px);
+  }
+}
+
+.bubble {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  position: absolute;
+  bottom: -100px; /* Start from below the screen */
+  animation: floatBubbles 25s linear infinite;
+  animation-delay: -5s; /* Delay so they appear at different times */
+}
+
+/* Add more bubbles with different delays and speeds for variety */
+.bubble:nth-child(2) {
+  animation-duration: 30s;
+  animation-delay: 0s;
+  left: 20%;
+}
+.bubble:nth-child(3) {
+  animation-duration: 35s;
+  animation-delay: 3s;
+  left: 50%;
+}
+.bubble:nth-child(4) {
+  animation-duration: 40s;
+  animation-delay: 7s;
+  left: 70%;
+}
+
+
+body {
+  animation: gradientBackground 20s ease infinite;
+  background-size: 400% 400%;
+}
+
+
+  .fade-in {
+    animation: fadeIn 2s ease-in-out forwards;
+  }
+
+    .site-footer {
+    height: 60px; /* Adjust based on your needs */
+    text-align: center;
+    background: transparent;
+    color: white;
+    position: fixed; /* Changed to fixed to ensure visibility at the bottom */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .neon {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff; /* Fallback color */
+  }
+  
+  .neon-red {
+    color: #ff0000; /* Red color */
+    text-shadow: 
+      0 0 5px #ff0000, 
+      0 0 10px #ff0000, 
+      0 0 20px #ff0000, 
+      0 0 40px #ff0000, 
+      0 0 80px #ff0000;
+  }
+  
+  .neon-blue {
+    color: #00eeff; /* Blue color */
+    text-shadow: 
+      0 0 5px #34f1ff, 
+      0 0 10px #34f1ff, 
+      0 0 20px #34f1ff, 
+      0 0 40px #34f1ff, 
+      0 0 80px #34f1ff;
+  }
+  button {
+  text-decoration: none;
+  position: relative;
+  border: none;
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+  color: #fff;
+  width: 9em;
+  height: 3em;
+  line-height: 2em;
+  text-align: center;
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 300%;
+  border-radius: 30px;
+  z-index: 1;
+}
+
+button:hover {
+  animation: ani 8s linear infinite;
+  border: none;
+}
+
+@keyframes ani {
+  0% {
+    background-position: 0%;
+  }
+
+  100% {
+    background-position: 400%;
+  }
+}
+
+button:before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+  border-radius: 35px;
+  transition: 1s;
+}
+
+button:hover::before {
+  filter: blur(20px);
+}
+
+button:active {
+  background: linear-gradient(32deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+}
+
+.custom-header-bg {
+    background: linear-gradient(to right, #002F4B, #005C97);
+  }
+
+body {
+    /* The URL should be the path to your background image */
+    background-image: url('Background.jpg');
+    background-size: cover;
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 3s; /* Delay the fade-out effect for 3 seconds after page load */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  body {
+    animation: fadeIn 3s ease-in-out forwards;
+  }
+
+  .header-bg {
+    animation: fadeIn 3s ease-out forwards; /* Animation that fades header in */
+  }
+
+  .header-bg.scrolled {
+    background: linear-gradient(to right, rgba(0, 47, 75, 0.85), rgba(0, 92, 151, 0.85)); /* Color when scrolled */
+  }
+  
+  /* Full-width sticky header */
+  .sticky {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 50; /* High z-index to keep the header on top */
+    background-color: transparent; /* Ensure the background is transparent */
+  }
+
+  footer {
+  font-family: 'IDKnotnow', sans-serif; /* Use Lato font */
+  background-color: transparent; /* Light grey background */
+  color: #212529; /* Dark grey text color */
+  padding: 20px; /* Padding for spacing */
+  text-align: center; /* Center-align text */
+  font-size: 14px; /* Set font size */
+}
+
+footer a {
+  color: #007bff; /* Blue color for links */
+  text-decoration: none; /* No underline */
+}
+
+footer a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.repetitive-text {
+    position: relative;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 2em; /* Adjust as needed */
+    color: white;
+    background-color: black;
+    letter-spacing: 0.1em; /* Adjust spacing between 'Wave' */
+    white-space: nowrap;
+    padding: 20px 0;
+    text-align: justify;
+    opacity: 0.75; /* Adjust for desired transparency */
+    -webkit-text-stroke: 1px black; /* Create a text outline effect if desired */
+    overflow: hidden;
+  }
+
+  .repetitive-text::after {
+    content: 'Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave Wave';
+    position: absolute;
+    white-space: nowrap;
+    display: block;
+    animation: moveText 10s linear infinite;
+  }
+
+  @keyframes moveText {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+</style>
+
+<script>
+// JavaScript code to handle the click event and redirection
+  document.addEventListener('DOMContentLoaded', () => {
+      let clickCount = 0;
+      const waveText = document.getElementById('waveText');
+    
+      waveText.addEventListener('click', () => {
+        clickCount++;
+        if (clickCount === 10) {
+          // Replace with the URL you want to redirect to after 10 clicks
+          window.location.href = 'https://cdn.discordapp.com/attachments/1224013849586302996/1226685296486125648/IMG_6962.mp4?ex=6625aab5&is=661335b5&hm=fc6513897155d4adc0af83e0392180d5c11d771cb5fd495e3b4a6be958bc864a&';
+        }
+      });
+    });
+    </script>
+
+
+    <!-- Placeholder for background graphic (soon) -->
+    <!-- <img src="" alt="Abstract blue and black background design with glowing elements and a central figure reminiscent of a mythical creature." class="absolute top-0 right-0 w-1/2 h-full object-cover"> -->
+</body>
+
+<footer class="bg-black text-white text-center py-4">
+  <p>Made by: 
+      <a href="https://codex.lol" class="neon-red font-bold" target="_blank">Codex</a> 
+      and 
+      <a href="https://spdmteam.com" class="neon-blue font-bold" target="_blank">SPDMTeam</a>
+  </p>
+</footer>
+
+</html>
